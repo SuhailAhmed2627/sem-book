@@ -1,0 +1,32 @@
+.home {
+   height: 100%;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+}
+.side-panel {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   height: 100%;
+   width: 20%;
+   background-color: azure;
+}
+
+.side-navigation-panel {
+   height: 50%;
+}
+
+.side-panel-info {
+   height: 50%;
+}
+
+.main-container {
+   width: 80%;
+}
+
+.pages {
+   width: 70%;
+   height: 70%;
+   background-color: white;
+}

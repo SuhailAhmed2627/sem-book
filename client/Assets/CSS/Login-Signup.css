@@ -1,0 +1,54 @@
+#root {
+   background-color: var(--neutral-200);
+}
+
+.modal {
+   z-index: 10;
+   position: absolute;
+   width: 600px;
+   height: 700px;
+   border-radius: 25px;
+   background-color: var(--neutral-100);
+   flex-direction: column;
+}
+
+.outline {
+   background: linear-gradient(
+      0deg,
+      var(--primary-100) 0%,
+      var(--primary-200) 100%
+   );
+   z-index: 5;
+   width: 620px;
+   height: 720px;
+   border-radius: 35px;
+}
+
+div[class|="container"] {
+   width: 600px;
+   flex-direction: column;
+}
+
+.container-600x100 {
+   height: 100px;
+}
+
+.container-600x100 > h1 {
+   font-size: 36px;
+}
+
+.container-600x400 {
+   height: 400px;
+}
+
+.error {
+   color: var(--error-100);
+}
+
+.success {
+   color: var(--success-100);
+}
+
+.warning {
+   color: var(--warning-100);
+}
